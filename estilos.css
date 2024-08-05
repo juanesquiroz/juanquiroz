@@ -1,0 +1,170 @@
+.texto {
+
+    font-size: 40px;
+    padding-top: 140px;
+    text-align: justify;
+    color: rgb(244, 237, 237);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal {
+    display: flex;
+
+}
+
+body {
+    background-image: url("fondos.jpg");
+}
+
+.titulo {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.img1 {
+    height: 193px;
+    width: 300px;
+    background-image: url("piedra.jpeg");
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.img2 {
+    height: 500px;
+    width: 500px;
+    background-image: url("medellin.jpeg");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.juanes,
+.valentina,
+.samuel {
+    flex: 1;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+
+.encabezado {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+
+
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: bisque;
+
+
+}
+
+.sociales {
+    width: 100%;
+    height: auto;
+    background-color: gold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+
+
+}
+
+
+
+
+
+.democracia {
+
+    height: auto;
+    background-color: gold;
+
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ingles {
+
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+
+}
+
+
+
+
+.puntouno {
+
+
+    height: 80px;
+    background-color: blueviolet;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+.tecnologia {
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(214, 21, 117);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+
+
+
+}
+
+
+.fuentesdeenergia {
+
+    height: 90px;
+    background-color: rgb(214, 21, 117);
+
+    font-size: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+.pdf-container {
+    width: 100%;
+    height: 600px; 
+    border: 2px solid #000; 
+}
+
+.imgsociales{
+    width: 750px;
+    height: auto;
+}
