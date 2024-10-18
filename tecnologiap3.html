@@ -63,47 +63,111 @@
         </p>
       </div>
     </div>
-    <div class="funcion">
-      <h1>Suma</h1>
-      <p>Descripción: Suma un rango de celdas o valores.</p>
-      <p>Sintaxis: =SUMA(valor1, valor2, ...) o =SUMA(rango)</p>
-      <p>Ejemplo: =SUMA(A1:A10)</p>
-      <p>Uso: Suma todos los valores en el rango A1</p>
-      <img class="imgfuncion" src="imagen/suma.JPG" alt="suma" />
-    </div>
+    <div class="contenedor-funciones">
+      <div class="funcion">
+        <h1>Suma</h1>
+        <p>Descripción: Suma un rango de celdas o valores.</p>
+        <p>Sintaxis: =SUMA(valor1, valor2, ...) o =SUMA(rango)</p>
+        <p>Ejemplo: =SUMA(A1:A10)</p>
+        <p>Uso: Suma todos los valores en el rango A1</p>
+        <img class="imgfuncion" src="imagen/suma.JPG" alt="suma" />
+      </div>
 
-    <div class="funcion">
-      <h1>PROMEDIO</h1>
-      <p>Descripción: Calcula el promedio de un rango de celdas.</p>
-      <p>Sintaxis: =PROMEDIO(valor1, valor2, ...) o =PROMEDIO(rango)</p>
-      <p>Ejemplo: =PROMEDIO(A1:A10)</p>
-      <p>
-        Uso: Devuelve el promedio (media aritmética) de los valores en el rango
-        A1
-      </p>
-      <img class="imgfuncion" src="imagen/promedio.png" alt="promedio" />
-    </div>
+      <div class="funcion">
+        <h1>PROMEDIO</h1>
+        <p>Descripción: Calcula el promedio de un rango de celdas.</p>
+        <p>Sintaxis: =PROMEDIO(valor1, valor2, ...) o =PROMEDIO(rango)</p>
+        <p>Ejemplo: =PROMEDIO(A1:A10)</p>
+        <p>
+          Uso: Devuelve el promedio (media aritmética) de los valores en el
+          rango A1
+        </p>
+        <img class="imgfuncion" src="imagen/promedio.png" alt="promedio" />
+      </div>
 
-    <div class="funcion">
-      <h1>REDONDEAR</h1>
-      <p>
-        Descripción: Redondea un número a una cantidad específica de decimales.
-      </p>
-      <p>Sintaxis: =REDONDEAR(número, núm_decimales)</p>
-      <p>Ejemplo: =REDONDEAR(A1, 2)</p>
-      <p>Uso: Redondea el valor de A1 a 2 decimales.</p>
-      <img class="imgfuncion" src="imagen/redondear.png" alt="redondear" />
-    </div>
+      <div class="funcion">
+        <h1>REDONDEAR</h1>
+        <p>
+          Descripción: Redondea un número a una cantidad específica de
+          decimales.
+        </p>
+        <p>Sintaxis: =REDONDEAR(número, núm_decimales)</p>
+        <p>Ejemplo: =REDONDEAR(A1, 2)</p>
+        <p>Uso: Redondea el valor de A1 a 2 decimales.</p>
+        <img class="imgfuncion" src="imagen/redondear.png" alt="redondear" />
+      </div>
 
-    <div class="funcion">
-      <h1>POTENCIA:</h1>
-      <p>Descripción: Eleva un número a una potencia específica.</p>
-      <p>Sintaxis: =POTENCIA(número, potencia)</p>
-      <p>Ejemplo: =POTENCIA(2, 3)</p>
-      <p>
-        Uso: Devuelve el resultado de 2 elevado a la potencia de 3, que es 8.
-      </p>
-      <img class="imgfuncion" src="imagen/potencia.png" alt="potencia" />
+      <div class="funcion">
+        <h1>POTENCIA:</h1>
+        <p>Descripción: Eleva un número a una potencia específica.</p>
+        <p>Sintaxis: =POTENCIA(número, potencia)</p>
+        <p>Ejemplo: =POTENCIA(2, 3)</p>
+        <p>
+          Uso: Devuelve el resultado de 2 elevado a la potencia de 3, que es 8.
+        </p>
+        <img class="imgfuncion" src="imagen/potencia.png" alt="potencia" />
+      </div>
+
+      <div class="funcion">
+        <h1>SI:</h1>
+        <p>
+          Descripción: Evalúa una condición y devuelve un valor si es verdadera
+          y otro si es falsa.
+        </p>
+        <p>Sintaxis: =SI(condición, valor_si_verdadero, valor_si_falso)</p>
+        <p>Ejemplo: =SI(A1>10, "Mayor", "Menor")</p>
+        <p>
+          Uso: Si A1 es mayor que 10, devuelve "Mayor"; de lo contrario,
+          devuelve "Menor".
+        </p>
+        <img class="imgfuncion" src="imagen/potencia.png" alt="potencia" />
+      </div>
+      <div class="funcion">
+        <h1>Y / O:</h1>
+        <p>
+          Descripción: Evalúa múltiples condiciones. Y devuelve verdadero solo
+          si todas las condiciones son verdaderas, mientras que O devuelve
+          verdadero si al menos una condición es verdadera.
+        </p>
+        <p>
+          Sintaxis: =Y(condición1, condición2, ...) y =O(condición1, condición2,
+          ...)
+        </p>
+        <p>Ejemplo: =Y(A1>5, B1<10) y =O(A1>5, B1<10)</p>
+        <p>
+          Uso: Y devuelve verdadero solo si A1 es mayor que 5 y B1 es menor que
+          10. O devuelve verdadero si cualquiera de esas condiciones se cumple.
+        </p>
+        <img class="imgfuncion" src="imagen/y-o.png" alt="y-o" />
+      </div>
+      <div class="funcion">
+        <h1>NO:</h1>
+        <p>
+          Descripción: Invierte el valor lógico de una condición (verdadero a
+          falso, y viceversa).
+        </p>
+        <p>Sintaxis: =NO(condición)</p>
+        <p>Ejemplo: =NO(A1>10)</p>
+        <p>Uso: Si A1 no es mayor que 10, devuelve verdadero.</p>
+        <img class="imgfuncion" src="imagen/no.png" alt="no" />
+      </div>
+      <div class="funcion">
+        <h1>BUSCARV:</h1>
+        <p>
+          Descripción: Busca un valor en la primera columna de un rango y
+          devuelve un valor en la misma fila desde una columna especificada.
+        </p>
+        <p>
+          Sintaxis: =BUSCARV(valor_buscado, rango_tabla, núm_columna,
+          [aproximado])
+        </p>
+        <p>Ejemplo: =BUSCARV(A1, B1:D10, 2, FALSO)</p>
+        <p>
+          Uso: Busca el valor de A1 en la primera columna del rango B1 y
+          devuelve el valor en la segunda columna de la misma fila.
+        </p>
+        <img class="imgfuncion" src="imagen/buscarv.png" alt="buscarv" />
+      </div>
     </div>
   </body>
 </html>
